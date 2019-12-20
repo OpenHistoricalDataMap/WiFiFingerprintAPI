@@ -1,8 +1,8 @@
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_pymongo import PyMongo
 
-application = Flask(__name__)
+application = Flask(__name__, template_folder=".")
 
 application.config["MONGO_URI"] = 'mongodb://' + os.environ['MONGODB_USERNAME'] + ':' + os.environ['MONGODB_PASSWORD'] + \
                                   '@' + os.environ['MONGODB_HOSTNAME'] + ':27017/' + os.environ['MONGODB_DATABASE']
@@ -11,45 +11,28 @@ mongo = PyMongo(application)
 db = mongo.db
 
 
-@application.route('/')
-def index():
-    return jsonify(
-        status=True,
-        message='Welcome to the Dockerized Flask MongoDB app!'
-    )
+# /
+@application.route('/', methods=["GET"])
+def list_fingerprints():
 
-
-@application.route('/todo')
-def todo():
-    _todos = db.todo.find()
-
-    item = {}
     data = []
-    for todo in _todos:
-        item = {
-            'id': str(todo['_id']),
-            'todo': todo['todo']
-        }
-        data.append(item)
-
-    return jsonify(
-        status=True,
-        data=data
-    )
+    for fp in db.todo.find():
+        data.append(fp['todo'])
+    return render_template('table.html', fingerprints=data)
 
 
-@application.route('/todo', methods=['POST'])
-def createTodo():
-    data = request.get_json(force=True)
-    item = {
-        'todo': data['todo']
-    }
-    db.todo.insert_one(item)
+# /fingerprint
+@application.route('/fingerprint/<int:fingerprint_id>', methods=["GET"])
+def get_fingerprint(fingerprint_id):
+    """
+    returns the fingerprint for a specified ID
+    """
+    fp = db.todo.find({"_id": fingerprint_id}).limit(1)
 
-    return jsonify(
-        status=True,
-        message='To-do saved successfully!'
-    ), 201
+    if not fp:
+        status = {"message:": "No fingerprint were found with this ID."}
+        return jsonify(status=404, data=status)
+    return render_template('table.html', fingerprints=fp['todo'])
 
 
 if __name__ == "__main__":

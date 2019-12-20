@@ -22,7 +22,6 @@ It is adapted to the [BVGDetection](https://github.com/OpenHistoricalDataMap/BVG
             }
           ]
         },
-        ...
         {
           "timestamp": "20-12-2019-02.32.32",
           "signalSample": [
@@ -32,7 +31,6 @@ It is adapted to the [BVGDetection](https://github.com/OpenHistoricalDataMap/BVG
             }
           ]
         }
-    }
   ]
 }
 ``` 

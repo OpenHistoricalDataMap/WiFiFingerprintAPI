@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+    {% if fingerprints == 0 %}
+        <h1> No Fingerprints stored!</h1>
+    {% else %}
+        <table border=1>
+        {% for fp in fingerprints %}
+        <tr>
+            <td> {{ fp }} </td>
+        </tr>
+        {% endfor %}
+        </table>
+    {% endif %}
+</body>
+</html>
