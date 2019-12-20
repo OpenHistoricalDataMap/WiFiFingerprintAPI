@@ -1,0 +1,47 @@
+version: '3'
+services:
+  api:
+    container_name: api
+    build: api/.
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      APP_ENV: "prod"
+      APP_DEBUG: "True"
+      APP_PORT: 5000
+      MONGODB_DATABASE: testdb
+      MONGODB_USERNAME: flask
+      MONGODB_PASSWORD: flask123
+      MONGODB_HOSTNAME: mongodb
+    depends_on:
+      - mongodb
+    networks:
+      - frontend
+      - backend
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:4.0.8
+    restart: unless-stopped
+    command: mongod --auth
+    volumes:
+      - mongodbdata:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: test
+      MONGO_INITDB_ROOT_PASSWORD: test123
+      MONGO_INITDB_DATABASE: testdb
+      MONGODB_DATA_DIR: /data/db
+      MONDODB_LOG_DIR: /dev/null
+    networks:
+      - backend
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+
+volumes:
+  mongodbdata:
+    driver: local
