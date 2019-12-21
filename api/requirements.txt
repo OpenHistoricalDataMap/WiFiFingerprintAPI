@@ -1,2 +1,4 @@
 Flask==1.0.2
 Flask-PyMongo==2.2.0
+jsonschema==3.2.0
+mongomock==3.18.0
