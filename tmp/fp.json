@@ -1,0 +1,47 @@
+﻿{
+  "id": "xmas",
+  "description": "test desc",
+  "coordinates": "52.1212,13.213212",
+  "additionalInfo": "updated",
+  "fingerprint": [
+    {
+      "timestamp": "20-12-2019-02.31.29",
+      "signalSample": [
+        {
+          "macAddress": "03:00:00:00:01:00",
+          "strength": -50
+        },
+        {
+          "macAddress": "02:00:00:00:01:00",
+          "strength": -12
+        },
+        {
+          "macAddress": "02:00:00:12:01:00",
+          "strength": 12
+        }
+      ]
+    },
+    {
+      "timestamp": "20-12-2019-02.31.30",
+      "signalSample": [
+        {
+          "macAddress": "02:00:00:00:01:00",
+          "strength": -50
+        }
+      ]
+    },
+    {
+      "timestamp": "20-12-2019-02.31.31",
+      "signalSample": [
+        {
+          "macAddress": "02:00:00:00:01:00",
+          "strength": -50
+        },
+                {
+          "macAddress": "02:00:00:12:01:00",
+          "strength": 10
+        }
+      ]
+    }
+  ]
+}

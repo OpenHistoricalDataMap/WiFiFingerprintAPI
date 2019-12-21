@@ -42,7 +42,8 @@ services:
       - "3100:3100"
     environment:
       MONGOKU_DEFAULT_HOST: "mongodb://test:test123@mongodb:27017"
-
+    depends_on:
+      - mongodb
     networks:
       - backend
       - frontend
