@@ -7,6 +7,9 @@ services:
 
 before_script: pip install docker-compose
 
+install:
+  - docker-compose build && docker-compose up -d
+
 script:
-  - docker-compose build && docker-compose up && pytest test/
+  - pytest tests/
 
