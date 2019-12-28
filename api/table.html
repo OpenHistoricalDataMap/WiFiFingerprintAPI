@@ -2,15 +2,27 @@
 <html>
 <body>
     {% if fingerprints == 0 %}
-        <h1> No Fingerprints stored!</h1>
+    <h1> No Fingerprints stored!</h1>
     {% else %}
-        <table border=1>
+    <table class="tg">
+        <tr>
+            <th>Id<br></th>
+            <th>Description<br></th>
+            <th colspan="2">Coordinates<br></th>
+            <th>additional Info<br></th>
+            <th>fingerprint</th>
+        </tr>
         {% for fp in fingerprints %}
         <tr>
-            <td> {{ fp }} </td>
+            <td>{{ fp.id }}<br></td>
+            <td>{{ fp.description }}<br></td>
+            <td>{{ fp.coordinates.split(',')[0] }}</td>
+            <td>{{ fp.coordinates.split(',')[1] }}</td>
+            <td>{{ fp.additionalInfo }}</td>
+            <td>{{ fp.fingerprint | join(',') }}</td>
         </tr>
         {% endfor %}
-        </table>
-    {% endif %}
+    </table>
+{% endif %}
 </body>
 </html>

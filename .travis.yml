@@ -1,0 +1,16 @@
+language: python
+python:
+  - '3.6'
+
+services:
+  - docker
+
+install:
+  - docker-compose build && docker-compose up -d
+
+before_script:
+  - pip install requests docker
+
+script:
+  - pytest tests/
+
