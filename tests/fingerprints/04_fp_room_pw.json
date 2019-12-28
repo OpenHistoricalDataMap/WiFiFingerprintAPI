@@ -1,0 +1,3720 @@
+{
+  "id": "04_fp_room_pw",
+  "description": "",
+  "coordinates": "",
+  "additionalInfo": "",
+  "fingerprint": [
+    {
+      "timestamp": "28-12-2019-07.42.50",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -57
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -68
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -72
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -66
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -65
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "18:83:bf:41:55:2c",
+          "strength": -88
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -64
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -84
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.51",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.52",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.53",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.54",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.55",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.56",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.57",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.58",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.42.59",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.00",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -46
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -67
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -52
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -64
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -74
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -78
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "00:15:0c:e1:cb:9c",
+          "strength": -82
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.01",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.02",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.03",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.04",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.05",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.06",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.07",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.08",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.09",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.10",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -51
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -56
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -68
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -72
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -66
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -81
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.11",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "5c:35:3b:ff:f9:98",
+          "strength": -86
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -77
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "48:8d:36:ee:24:67",
+          "strength": -85
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "18:83:bf:47:33:23",
+          "strength": -71
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.12",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.13",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.14",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.15",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.16",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.17",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.18",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.19",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.20",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -50
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -70
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -51
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -65
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -81
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -84
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.21",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.22",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.23",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.24",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.25",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.26",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.27",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.28",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.29",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.30",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -44
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -75
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:5c:44:c5:c6:b7",
+          "strength": -75
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -62
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -80
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "5e:35:3b:ff:f9:9e",
+          "strength": -85
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.32",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.33",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.34",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.35",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.36",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.37",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.38",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.39",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.40",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.41",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -43
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -72
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -48
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -59
+        },
+        {
+          "macAddress": "ea:df:70:fa:d8:a3",
+          "strength": -73
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -82
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -58
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -76
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -82
+        },
+        {
+          "macAddress": "90:72:40:1c:85:e0",
+          "strength": -80
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.42",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.43",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.44",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.45",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.46",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.47",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.48",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.49",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    },
+    {
+      "timestamp": "28-12-2019-07.43.50",
+      "signalSample": [
+        {
+          "macAddress": "38:10:d5:b2:64:10",
+          "strength": -37
+        },
+        {
+          "macAddress": "e8:df:70:cd:61:1b",
+          "strength": -68
+        },
+        {
+          "macAddress": "b4:a5:ef:43:54:24",
+          "strength": -44
+        },
+        {
+          "macAddress": "34:2c:c4:b7:72:d6",
+          "strength": -56
+        },
+        {
+          "macAddress": "e8:df:70:fa:d8:a3",
+          "strength": -78
+        },
+        {
+          "macAddress": "7c:ff:4d:c0:e7:0c",
+          "strength": -64
+        },
+        {
+          "macAddress": "78:54:2e:ec:e5:dc",
+          "strength": -79
+        },
+        {
+          "macAddress": "54:67:51:44:6b:2b",
+          "strength": -85
+        },
+        {
+          "macAddress": "84:a9:3e:cf:e6:79",
+          "strength": -79
+        },
+        {
+          "macAddress": "44:4e:6d:53:88:c1",
+          "strength": -78
+        }
+      ]
+    }
+  ]
+}
