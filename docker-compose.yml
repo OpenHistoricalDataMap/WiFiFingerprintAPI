@@ -25,6 +25,7 @@ services:
     image: mongo:4.0.8
     restart: unless-stopped
     volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
       - mongodbdata:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: test
