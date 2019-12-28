@@ -5,10 +5,11 @@ python:
 services:
   - docker
 
-before_script: pip install docker-compose
-
 install:
   - docker-compose build && docker-compose up -d
+
+before_script:
+  - pip install requests docker
 
 script:
   - pytest tests/

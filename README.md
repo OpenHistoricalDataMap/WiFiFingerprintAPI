@@ -1,4 +1,7 @@
 # AccessPointFingerprintAPI
+
+[![Build Status](https://travis-ci.com/FalcoSuessgott/AccessPointFingerprintAPI.svg?branch=master)](https://travis-ci.com/FalcoSuessgott/AccessPointFingerprintAPI)
+
 This Project stores Access Points Fingerprints from mobile devices (e.g smartphone, esp8266, ..) and its geolocation.
 If requested, the API responds with the corresponding geolocation for a specific fingerprint.
 
@@ -38,7 +41,9 @@ It is adapted to the [BVGDetection](https://github.com/OpenHistoricalDataMap/BVG
 ```
 git clone https://github.com/FalcoSuessgott/AccessPointFingerprintAPI
 cd AccessPointFingerprintAPI
-docker-compuse up
+docker-compose build && docker-compuse up
+# running tests
+pytest tests/
 ```
 
 # Project Setup 

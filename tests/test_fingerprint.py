@@ -1,25 +1,24 @@
 import requests
 import json
 import codecs
+import docker
 
-IP = "192.168.178.70"
+
+def get_ip_from_container(container_name, network):
+	"""
+	returns the ip of docker container
+	"""
+
+	client = docker.DockerClient()
+	container = client.containers.get(container_name)
+	return container.attrs['NetworkSettings']['Networks'][network]['IPAddress']
+
+
+API_IP = get_ip_from_container("api", "accesspointfingerprintapi_frontend")
 PORT = 5000
 ENDPOINT = "fingerprint"
-URI = "http://" +  IP + ":" + str(PORT) + "/" + ENDPOINT
+URI = "http://" + API_IP + ":" + str(PORT) + "/" + ENDPOINT
 HEADERS = {'Content-Type': 'application/json'}
-
-
-###########
-#   GET   #
-###########
-
-
-def test_get_fingerprint_should_return_200():
-	assert requests.get(URI + "/test").status_code == 200
-
-
-def test_get_fingerprint_should_return_404():
-	assert requests.get(URI + "/invalid").status_code == 404
 
 
 ###########
@@ -28,14 +27,26 @@ def test_get_fingerprint_should_return_404():
 
 
 def test_post_fingerprint_should_return_201():
-	with codecs.open('test_fp.json', 'r', 'utf-8-sig') as json_file:
+	with codecs.open('tests/test_fp.json', 'r', 'utf-8-sig') as json_file:
 		data = json.load(json_file)
 
-	assert requests.post(URI, data=json.dumps(data), headers=HEADERS).status_code == 201
+	assert requests.post(URI, json=data, headers=HEADERS).status_code == 201
 
 
 def test_post_fingerprint_should_return_400():
-	assert requests.post(URI, data=json.dumps({'some' : 'Data'}), headers=HEADERS).status_code == 400
+	assert requests.post(URI, json={'some': 'Data'}, headers=HEADERS).status_code == 400
+
+###########
+#   GET   #
+###########
+
+
+def test_get_fingerprint_should_return_200():
+	assert requests.get(URI + "/test_id").status_code == 200
+
+
+def test_get_fingerprint_should_return_404():
+	assert requests.get(URI + "/invalid").status_code == 404
 
 
 ###########
@@ -44,27 +55,28 @@ def test_post_fingerprint_should_return_400():
 
 
 def test_put_fingerprint_should_return_400():
-	assert requests.post(URI + "/test_id", data=json.dumps({'some' : 'Data'}), headers=HEADERS).status_code == 400
+	assert requests.put(URI + "/test_id", json={'some': 'Data'}, headers=HEADERS).status_code == 400
 
 
 def test_put_fingerprint_should_return_404():
-	assert requests.post(URI + "/invalid", data=json.dumps({'some' : 'Data'}), headers=HEADERS).status_code == 400
+	assert requests.put(URI + "/invalid", json={'some': 'Data'}, headers=HEADERS).status_code == 404
 
 
-def test_put_fingerprint_should_return_200():
-	with codecs.open('test_fp.json', 'r', 'utf-8-sig') as json_file:
+def test_put_fingerprint_should_return_201():
+	with codecs.open('tests/test_fp.json', 'r', 'utf-8-sig') as json_file:
 		data = json.load(json_file)
 
-	assert requests.post(URI + "/test_id", data=json.dumps(data), headers=HEADERS).status_code == 200
+	assert requests.put(URI + "/test_id", json=data, headers=HEADERS).status_code == 201
+
 
 #############
 #   DELETE  #
 #############
 
 
-def test_delete_fingerprint_should_return_200():
-	assert requests.post(URI + "/test_id", data=json.dumps({'some' : 'Data'}), headers=HEADERS).status_code == 200
+def test_delete_fingerprint_should_return_201():
+	assert requests.delete(URI + "/test_id").status_code == 201
 
 
 def test_delete_fingerprint_should_return_404():
-	assert requests.post(URI + "/test_id", data=json.dumps({'some' : 'Data'}), headers=HEADERS).status_code == 404
+	assert requests.delete(URI + "/invalid").status_code == 404

@@ -183,9 +183,9 @@ def get_fingerprint(fingerprint_id):
             'additionalInfo': fp['additionalInfo'],
             'fingerprint': fp['fingerprint']
         }]
-        return jsonify(status=200, data=data)
+        return jsonify(data=data), 200
     else:
-        return jsonify(status=404, message="No fingerprint were found with this ID.")
+        return jsonify(message="No fingerprint were found with this ID."), 404
 
 
 @application.route('/fingerprint', methods=["POST"])
@@ -198,9 +198,9 @@ def post_fingerprint():
         fp = request.get_json()
         validate(instance=fp, schema=FINGERPRINT_SCHEMA)
         db.fingerprint.insert_one(fp)
-        return jsonify(status=201, message='Fingerprint saved successfully!')
+        return jsonify(message='Fingerprint saved successfully!'), 201
     except Exception as e:
-        return Response('Exception while storing fingerprint: %s' % e, status=400)
+        return jsonify(message='Fingerprint could not be saved', error=str(e)), 400
 
 
 @application.route('/fingerprint/<string:fingerprint_id>', methods=["PUT"])
@@ -216,11 +216,11 @@ def put_fingerprint(fingerprint_id):
             request_fp = request.get_json()
             validate(instance=request_fp, schema=FINGERPRINT_SCHEMA)
             db.fingerprint.find_one_and_update({'id': fingerprint_id}, {'$set': request_fp})
-            return jsonify(status=200, message='Fingerprint updated successfully!')
+            return jsonify(message='Fingerprint updated successfully!'), 201
         except Exception as e:
-            return jsonify(status=400, message='Exception while updating fingerprint: %s' % e)
+            return jsonify(message='Fingerprint could not be updated', error=str(e)), 400
     else:
-        return jsonify(status=404, message="No fingerprint were found with this ID.")
+        return jsonify(message="No fingerprint were found with this ID."), 404
 
 
 @application.route('/fingerprint/<string:fingerprint_id>', methods=["DELETE"])
@@ -229,10 +229,13 @@ def delete_fingerprint(fingerprint_id):
     deletes a fingerprint
     """
 
-    if db.fingerprint.delete_one({'id': fingerprint_id}):
-        return jsonify(status=201, message='Fingerprint deletes successfully!')
+    fp = db.fingerprint.find_one({'id': fingerprint_id})
+
+    if fp:
+        db.fingerprint.delete_one({'id': fingerprint_id})
+        return jsonify(message='Fingerprint deletes successfully!'), 201
     else:
-        return jsonify(status=404, message="No fingerprint were found with this ID.")
+        return jsonify(message="No fingerprint were found with this ID."), 404
 
 
 @application.route('/localize', methods=["GET"])
