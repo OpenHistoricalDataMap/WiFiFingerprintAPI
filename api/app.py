@@ -6,10 +6,6 @@ from flask_pymongo import PyMongo
 from jsonschema import validate
 from numpy import std
 
-# TODO: use templates for /fingerprint
-# TODO: log?!
-# TODO: ..
-
 application = Flask(__name__, template_folder=".")
 
 application.config["MONGO_URI"] = 'mongodb://' + os.environ['MONGODB_USERNAME'] + ':' + os.environ['MONGODB_PASSWORD'] + \
@@ -196,9 +192,12 @@ def post_fingerprint():
 
     try:
         fp = request.get_json()
-        validate(instance=fp, schema=FINGERPRINT_SCHEMA)
-        db.fingerprint.insert_one(fp)
-        return jsonify(message='Fingerprint saved successfully!'), 201
+        if db.fingerprint.find_one({'id': fp['id']}):
+            return jsonify(message='A Fingerprint with this ID does already exist'), 400
+        else:
+            validate(instance=fp, schema=FINGERPRINT_SCHEMA)
+            db.fingerprint.insert_one(fp)
+            return jsonify(message='Fingerprint saved successfully!'), 201
     except Exception as e:
         return jsonify(message='Fingerprint could not be saved', error=str(e)), 400
 
@@ -241,60 +240,130 @@ def delete_fingerprint(fingerprint_id):
 @application.route('/localize', methods=["GET"])
 def get_localize():
     """
-    returns the estimates position (lat,long) to a given set of mac and its strengths values
+    returns the most matching fingerprint to a given set of mac and its strengths values
     """
 
+    best_match = None
+
     # build a dict of macs and its strengths that are passed in the request arguments
-    url_params = args_to_dict(request.args.to_dict())
+    try:
+        url_params = args_to_dict(request.args.to_dict())
+    except ValueError as e:
+        return jsonify(message='Invalid request parameter.', error=str(e)), 400
 
     for fp in db.fingerprint.find():
-        fingerprint_macs = get_macs(fp)
+        # Remove macs from fingerprint which has less then 1/3 occurrences in all timestamps
+        fingerprint_macs = {mac: count for mac, count in get_macs(fp).items()
+                            if count >= int(1/3 * len(fp['fingerprint']))
+                            }
 
-        # Remove macs from fingerprint which has less then 1/3 occurrences
-        for mac, count in fingerprint_macs.items():
-            if count < int(1/3 * len(fp['fingerprint'])):
-                del fingerprint_macs[mac]
+        # If the match probability of this fingerprint is better, then assign this was one as the result
+        if not best_match:
+            application.logger.info("Current Best match: %s" % str(best_match))
+            best_match = calculate_match_probability(url_params, fingerprint_macs, fp)
+        else:
+            application.logger.info("Current Best match: %s" % str(best_match))
+            if calculate_match_probability(url_params, fingerprint_macs, fp)[1] > best_match[1]:
+                best_match = calculate_match_probability(url_params, fingerprint_macs, fp)
 
-        for url_mac in url_params:
-            if url_mac in fingerprint_macs:
-                url_strength = url_params['mac']
-                fp_strength_std_deviation = get_strength_std_deviation(fp, url_mac)
-                fp_average_strength = get_average_strength(fp, url_mac)
+    # Return the best matched fingerprint
+    result_fp = db.fingerprint.find_one({'id': best_match[0]})
 
-                if (abs(fp_average_strength) - abs(fp_strength_std_deviation) <= abs(url_strength) <=
-                        abs(fp_average_strength) + abs(fp_strength_std_deviation)):
-                    its_a_match = True
-                    continue
-                else:
-                    break
+    if result_fp:
+        return jsonify(message="Found a matching fingerprint!", fingeprint_id=result_fp['id'],
+                       ratio=str(best_match[1]) + "%", fingeprint_description=result_fp['description'],
+                       fingerprint_coordinates=result_fp['coordinates'],
+                       fingeprint_additionalInfo=result_fp['additionalInfo']), 200
+    else:
+        return jsonify(message="No Fingerprint were found, which matches the given macs and its strength."), 404
 
-        if its_a_match:
-            return jsonify(status=200, data=fp['coordinates'])
-    return jsonify(status=204, message="No matching fingerprint were found")
+
+def calculate_match_probability(url_params, fingerprint_macs, fingerprint):
+    """
+    Iterates through the url params and does the following:
+    If the strength of a url_param mac is in between the range of the average strength of a fingerprint and its standard
+    deviation then go to the next one. If every url_param were successfully found in the fingerprint, we then return
+    the difference between the fingerprint average strength and the url strength average.
+    """
+
+    application.logger.info("Compare url %s & fingerprint: Id: %s" % (str(url_params), fingerprint['id']))
+    application.logger.info(url_params)
+
+    i = 0
+    average = 0
+
+    for url_mac, url_strength in url_params.items():
+        # If the url mac is in the current fingerprint
+        if url_mac in fingerprint_macs:
+            application.logger.info("Current url mac: %s" % url_mac)
+            fp_average_strength = get_average_strength(fingerprint, url_mac.lower())
+
+            application.logger.info("Fingerprints mac average strength: %d" % fp_average_strength)
+            average += ratio_in_percent(abs(fp_average_strength), abs(float(url_strength)))
+
+            i += 1
+            if i == len(url_params):
+                try:
+                    application.logger.info("Relation: " + str(average / len(url_params)))
+                    return fingerprint['id'], average / len(url_params)
+                except ZeroDivisionError:
+                    application.logger.info("Relation: 0 %")
+                    return fingerprint['id'], 0
+
+
+def ratio_in_percent(a, b):
+    """
+    returns the ratio between to numbers in percent
+    """
+
+    result = float(((b - a) * 100) / a)
+    return 100 - abs(result)
 
 
 def args_to_dict(args):
     """
-    returns a dict of mac and corresponding strength from a given dict of url params
+    Parses the url params to the following dict:
+    values = {
+        MAC_1: STRENGTH_1,
+        MAC_2: STRENGTH_2,
+        ...
+    }
+    Throws an ValueError if the dict is empty after parsing.
     """
 
     values = {}
+    min_rssi = -26
+    max_rssi = -100
 
-    for k, v in args:
-        if re.match(r'mac[0-9]', k):
-            values[v] = args['strength' + str(k[-1:])]
-    return values
+    for k, v in args.items():
+        if re.match(r'mac[0-9]+', k) and re.match(r'(?:[0-9a-fA-F]:?){12}', v):
+            try:
+                strength = args['strength' + str(k[-1:])]
+                if abs(min_rssi) <= abs(int(strength)) <= abs(max_rssi) and int(strength) < 0:
+                    values[v] = strength
+                else:
+                    raise ValueError(
+                        "Strength value for mac: %s (param: %s) missing. Strength Range: -26 - -100." % (v, k))
+            except KeyError:
+                raise ValueError(
+                    'Invalid request params found (%s : %s). Use: \"/localize?mac1=A:B:C:D:E:F&strength1=[-26 .. -100]\"' %
+                    (v, k)
+                )
+
+    if len(values) == 0:
+        raise ValueError('No valid request params found. Use: \"/localize?mac1=A:B:C:D:E:F&strength1=[-26 .. -100]\"')
+    else:
+        return values
 
 
 def get_macs(data):
     """
-    returns a dict of all macs and its occurrences
+    returns a dict of all macs and its occurrences of a given fingerprint
     """
 
     macs = []
     values = {}
 
-    application.logger.info(data)
     for p in data['fingerprint']:
         for v in p['signalSample']:
             macs.append(v['macAddress'])
@@ -318,21 +387,6 @@ def get_average_strength(data, mac):
                 strength.append(int(v['strength']))
 
     return statistics.mean(strength)
-
-
-def get_strength_std_deviation(data, mac):
-    """
-    returns the standard deviation for a specific mac
-    """
-
-    strength = []
-
-    for p in data['fingerprint']:
-        for v in p['signalSample']:
-            if v['macAddress'] == mac:
-                strength.append(abs(int(v['strength'])))
-
-    return std(strength, ddof=1)
 
 
 if __name__ == "__main__":

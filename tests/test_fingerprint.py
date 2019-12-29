@@ -27,13 +27,20 @@ HEADERS = {'Content-Type': 'application/json'}
 
 
 def test_post_fingerprint_should_return_201():
-	with codecs.open('tests/test_fp.json', 'r', 'utf-8-sig') as json_file:
+	with codecs.open('tests/fingerprints/test_fp.json', 'r', 'utf-8-sig') as json_file:
 		data = json.load(json_file)
 
 	assert requests.post(URI, json=data, headers=HEADERS).status_code == 201
 
 
 def test_post_fingerprint_should_return_400():
+	with codecs.open('tests/fingerprints/test_fp.json', 'r', 'utf-8-sig') as json_file:
+		data = json.load(json_file)
+
+	assert requests.post(URI, json=data, headers=HEADERS).status_code == 400
+
+
+def test_post_fingerprint_should_return_400_1():
 	assert requests.post(URI, json={'some': 'Data'}, headers=HEADERS).status_code == 400
 
 ###########
@@ -63,7 +70,7 @@ def test_put_fingerprint_should_return_404():
 
 
 def test_put_fingerprint_should_return_201():
-	with codecs.open('tests/test_fp.json', 'r', 'utf-8-sig') as json_file:
+	with codecs.open('tests/fingerprints/test_fp.json', 'r', 'utf-8-sig') as json_file:
 		data = json.load(json_file)
 
 	assert requests.put(URI + "/test_id", json=data, headers=HEADERS).status_code == 201
