@@ -257,6 +257,8 @@ def get_localize():
                             if count >= int(1/3 * len(fp['fingerprint']))
                             }
 
+        #fingerprint_macs = {mac: count for mac, count in get_macs(fp).items()}
+
         # If the match probability of this fingerprint is better, then assign this was one as the result
         if not best_match:
             application.logger.info("Current Best match: %s" % str(best_match))
@@ -278,6 +280,10 @@ def get_localize():
         return jsonify(message="No Fingerprint were found, which matches the given macs and its strength."), 404
 
 
+##################
+# Helper Methods #
+##################
+
 def calculate_match_probability(url_params, fingerprint_macs, fingerprint):
     """
     Iterates through the url params and does the following:
@@ -293,22 +299,23 @@ def calculate_match_probability(url_params, fingerprint_macs, fingerprint):
     average = 0
 
     for url_mac, url_strength in url_params.items():
+        i += 1
         # If the url mac is in the current fingerprint
-        if url_mac in fingerprint_macs:
-            application.logger.info("Current url mac: %s" % url_mac)
+        if url_mac.lower() in fingerprint_macs:
+            application.logger.info("Current url %d. mac: %s" % (i, url_mac))
             fp_average_strength = get_average_strength(fingerprint, url_mac.lower())
 
             application.logger.info("Fingerprints mac average strength: %d" % fp_average_strength)
             average += ratio_in_percent(abs(fp_average_strength), abs(float(url_strength)))
+        else:
+            application.logger.info("Current url %d. mac: is not in fingerprint %s" % (i, fingerprint['id']))
 
-            i += 1
-            if i == len(url_params):
-                try:
-                    application.logger.info("Relation: " + str(average / len(url_params)))
-                    return fingerprint['id'], average / len(url_params)
-                except ZeroDivisionError:
-                    application.logger.info("Relation: 0 %")
-                    return fingerprint['id'], 0
+    try:
+        application.logger.info("Relation: " + str(average / len(url_params)))
+        return fingerprint['id'], average / len(url_params)
+    except ZeroDivisionError:
+        application.logger.info("Relation: 0 %")
+        return fingerprint['id'], 0
 
 
 def ratio_in_percent(a, b):
@@ -330,6 +337,7 @@ def args_to_dict(args):
     }
     Throws an ValueError if the dict is empty after parsing.
     """
+    application.logger.info("Url params: %s" % (str(args)))
 
     values = {}
     min_rssi = -26
@@ -338,20 +346,21 @@ def args_to_dict(args):
     for k, v in args.items():
         if re.match(r'mac[0-9]+', k) and re.match(r'(?:[0-9a-fA-F]:?){12}', v):
             try:
-                strength = args['strength' + str(k[-1:])]
+                index = ''.join(filter(lambda i: i.isdigit(), k))
+                strength = args['strength' + str(index)]
                 if abs(min_rssi) <= abs(int(strength)) <= abs(max_rssi) and int(strength) < 0:
                     values[v] = strength
                 else:
                     raise ValueError(
-                        "Strength value for mac: %s (param: %s) missing. Strength Range: -26 - -100." % (v, k))
+                        "Strength value for mac: %s (param: %s) is wrong. Valid Range: -26 - -100." % (v, k))
             except KeyError:
                 raise ValueError(
-                    'Invalid request params found (%s : %s). Use: \"/localize?mac1=A:B:C:D:E:F&strength1=[-26 .. -100]\"' %
+                    'Invalid request params found (%s : %s). Use: "/localize?mac1=A:B:C:D:E:F&strength1=[-26 .. -100]"' %
                     (v, k)
                 )
 
     if len(values) == 0:
-        raise ValueError('No valid request params found. Use: \"/localize?mac1=A:B:C:D:E:F&strength1=[-26 .. -100]\"')
+        raise ValueError('No valid request params found. Use: "/localize?mac1=A:B:C:D:E:F&strength1=[-26 .. -100]"')
     else:
         return values
 
