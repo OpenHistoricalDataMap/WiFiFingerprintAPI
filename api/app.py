@@ -199,7 +199,7 @@ def post_fingerprint():
             db.fingerprint.insert_one(fp)
             return jsonify(message='Fingerprint saved successfully!'), 201
     except Exception as e:
-        return jsonify(message='Fingerprint could not be saved', error=str(e)), 400
+        return jsonify(message='Fingerprint could not be saved', error=str(e)), 404
 
 
 @application.route('/fingerprint/<string:fingerprint_id>', methods=["PUT"])
