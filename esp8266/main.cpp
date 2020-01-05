@@ -7,7 +7,7 @@ WiFiServer server(80);
 String header;
 
 // API
-const char* host = "http://192.168.178.70:5000/localize?";
+const char* api_ip = "192.168.178.70";
 
 // WiFi
 const char *ssid = "";
@@ -48,7 +48,7 @@ const char* build_request(char *urlout){
 
   // char urlout[512] = 0;
 
-  strcpy(urlout, host);
+  strcpy(urlout, "http://" + api_ip + ":5000/localize?");
 
   for (int i = 0; i < n; ++i){
     char buffer[8];

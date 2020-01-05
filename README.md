@@ -1,32 +1,30 @@
-# AccessPointFingerprintAPI
+# WiFi Fingerprint API
 [![Build Status](https://travis-ci.com/FalcoSuessgott/AccessPointFingerprintAPI.svg?branch=master)](https://travis-ci.com/FalcoSuessgott/AccessPointFingerprintAPI)
-> HTTP API that stores Wifi Fingerprints and responds with the matching fingerprint for indoor localization.
-
+> HTTP API that stores Wifi Fingerprints and responds with the most matching fingerprint based on available WiFi`s for indoor localization.
 
 # ToC
-* [Introduction](Introduction)
-* [Project Setup](Project Setup)
-* [Installation and usage](Installation and Usage)
-* [Endpoint Descriptions](Endpoint Descriptions)
-* [Examples](Examples)
-* [ToDos](Todos)
+* [Introduction](#Introduction)
+* [Setup](#Setup)
+* [Usage](#Usage)
+* [Endpointdescriptions](#Endpointdescriptions)
+* [ToDos](#Todos)
 
 # Introduction
-This project serves a HTTP API that stores WiFi fingerprints (CRUD) from the 
+This project serves a HTTP API that stores WiFi fingerprints from the 
 [BVGDetection](https://github.com/OpenHistoricalDataMap/BVGDetection) Android Application. 
 
 Devices, (for now only the ESP8266) can request the API with their current WIFI fingerprint to verify their current location.
 
-# Project Setup
+# Setup
 The project contains 3 services / Docker Container:
 * `IP:5000` HTTP API
 * `IP:27017` MongoDB
 * `ÌP:3100` [Mongoku](https://github.com/huggingface/Mongoku) (WebUI for MongoDB)
  
 
-# Installation and Usage
+# Usage
 In order to run the application, you´ll need a running docker daemon and docker-compose installed.
-For the tests, you will need pytest installed.
+For the tests, you will need pytest.
 
 ```
 git clone https://github.com/FalcoSuessgott/AccessPointFingerprintAPI
@@ -37,7 +35,7 @@ docker-compuse up
 pytest tests/
 ```
 
-# Endpoint Descriptions
+# Endpointdescriptions
 This application exposes two endpoints:
 * `/fingerprint` manages the WiFI fingerprints (CRUD)
 * `/localize` returns the most matching fingerprint based on clients available WiFi's
@@ -45,7 +43,7 @@ This application exposes two endpoints:
 ## `/fingerprint`
 Exposes a HTTP API to create, read, update and delete WiFI fingerprint APIs.
 
-See all fingerprints currently stored under `http://IP:5000/fingeprint`.
+All fingerprints can be seen under `http://IP:5000/fingeprint`.
 ### Get
 > Returns the WiFi fingerprint with the matching id
 
@@ -114,16 +112,20 @@ Returns:
  * `201` Request was successful
  * `404` No fingerprint were found with this ID.
 
-## `localize`
+## `/localize`
 
 ### Get
-Returns the most matching fingerprint based on specified WiFis, that are currently available for the client.
-For example, the ESP8266 does currently see 2 available WiFi`s then the request URI would look like:
+Returns the most matching fingerprint based on a list of specified WiFis (BSSID) and its strength values (RSSI) that are currently available for the client.
+
+For example, an ESP8266 device does currently see 2 available WiFi`s then the request URI would look like:
  
 `http://IP:5000/localize?mac1=00:AA:11:BB:CC:44&strength1=-58&mac2=00:AA:11:BB:DD:44&&strength2=-34`
 
-For the calculation, see [...](...)
+A possible client implementation for the ESP8266 can be found in the [`/esp8266`](https://github.com/FalcoSuessgott/AccessPointFingerprintAPI/tree/feature/esp8266/esp8266) directory.
+Returns:
+* `200` The most matching fingerprint
+* `400` Invalid request
+* `404` No fingerprint were found
 
 # ToDos
-*
-*
+* ...
