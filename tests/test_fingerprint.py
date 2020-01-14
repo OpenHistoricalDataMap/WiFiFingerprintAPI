@@ -40,8 +40,8 @@ def test_post_fingerprint_should_return_400():
 	assert requests.post(URI, json=data, headers=HEADERS).status_code == 400
 
 
-def test_post_fingerprint_should_return_400_1():
-	assert requests.post(URI, json={'some': 'Data'}, headers=HEADERS).status_code == 400
+def test_post_fingerprint_should_return_404_1():
+	assert requests.post(URI, json={'some': 'Data'}, headers=HEADERS).status_code == 404
 
 ###########
 #   GET   #
